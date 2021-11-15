@@ -1,6 +1,6 @@
 const {MongoClient} = require("mongodb");
 
-//const URL = "mongodb://localhost:27017";
+const URL = "mongodb+srv://admin:<9989784422>@cluster0.o45hw.mongodb.net/admin?retryWrites=true&w=majority";
 //const DATA_BASE = "computer";
 const client =  new MongoClient(process.env.URL);
 
