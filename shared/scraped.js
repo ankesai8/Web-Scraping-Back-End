@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 
 scrapdata = ()=>{
   
-  
+  //------------------------------------------->>>>>>>>>>>>>>>  
   let Amazon =[];
    //Fetching DATA FROM  Amazon web
    axios.get("https://www.amazon.in/s?k=laptops&i=computers&bbn=22963797031&rh=n%3A22963797031%2Cp_89%3AASUS%7CLenovo%7CMicrosoft%2Cp_72%3A1318476031&s=date-desc-rank&dc&qid=1636969630&rnid=1318475031&ref=sr_nr_p_72_1")
@@ -67,6 +67,7 @@ scrapdata = ()=>{
    })
    .catch(err=>console.log(err));
 
+   //------------------------------------------->>>>>>>>>>>>>>> 
    //Fetching DATA FROM  SnapDeal web
 
    let snapdeal =[];
