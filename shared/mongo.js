@@ -1,7 +1,5 @@
 const {MongoClient} = require("mongodb");
 
-const {MongoClient} = require("mongodb");
-
 //mongodb+srv://admin123:998978@cluster0.9rpjb.mongodb.net/admin123?retryWrites=true&w=majority
 //const DATA_BASE = "admin123";
 const client =  new MongoClient(process.env.URL);
